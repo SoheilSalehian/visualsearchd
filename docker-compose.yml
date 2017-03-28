@@ -1,5 +1,6 @@
 uvisualsearch:
   build: ./VisualSearch
+  mem_limit: 1200000000
   expose:
     - 8000
   ports:
@@ -7,6 +8,7 @@ uvisualsearch:
 
 uchatbot:
   build: ./uChatbot
+  mem_limit: 60000000
   expose:
     - 9091
   ports:
